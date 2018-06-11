@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+    <product-list ADAPTERID="258d7307d9cbc01871e52052c">
+        <i>
+            <title>测试商品001</title>
+            <brief>测试商品001,非常好用啊</brief>
+            <price>122</price>
+            <img>http://i.oxm1.cc/uploads/git/wurui/img/2ajyf6sgfTizdxut9dRn6ohG7iho.jpg</img>
+            <href></href>
+            <tags>
+                <i>女王节</i>
+            </tags>
+            <id>test01</id>
+            <orig_price>190</orig_price>
+            <_id>58d7307d9cbc01871e52052d</_id>
+        </i>
+        <i>
+            <title>测试商品002</title>
+            <brief>测试商品002,非常好用啊</brief>
+            <price>901</price>
+            <img>http://i.oxm1.cc/uploads/git/wurui/img/2ajyf6sg4Tizdxut9oRw8uxC3pm.jpg</img>
+            <href></href>
+            <tags>
+                <i>梧桐树</i>
+            </tags>
+            <id>fox002</id>
+            <orig_price>233</orig_price>
+            <_id>58d730e09cbc01871e520531</_id>
+        </i>
+    </product-list>
+    </data>
+</root>
