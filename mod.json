@@ -2,7 +2,7 @@
   "name": "act-product-list",
   "apiDependencies": [
   {
-    "name": "product-list"
+    "name": "promotion-products"
   }
 ]
 }

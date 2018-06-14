@@ -2,9 +2,30 @@
     <xsl:template match="/root" name="wurui.act-product-list">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-act-product-list" ox-mod="act-product-list">
-            <h1>
-                This is mod act-product-list;
-            </h1>
+	          <xsl:choose>
+	          	<xsl:when test="count(data/promotion-products/i) &gt; 0">
+	          		<ul>
+	          			<xsl:for-each select="data/promotion-products/i">
+	          			<li>
+	          				<span class="img-box" style="background-image:url({img})"></span>
+	          				<nobr class="title">
+	          					<xsl:value-of select="title"/>
+	          				</nobr>
+	          				<nobr class="brief"><xsl:value-of select="promotion/name"/></nobr>
+	          				<span class="price">
+	          					&#160;
+	          					<em><xsl:value-of select="promotion/price"/></em>
+	          					&#160;
+	          					<del><xsl:value-of select="orig_price"/></del>
+	          				</span>
+	          			</li>
+	          			</xsl:for-each>
+	          		</ul>
+	          	</xsl:when>
+	          	<xsl:otherwise>
+	          		<center class="nodata">暂无商品数据</center>
+	          	</xsl:otherwise>
+	          </xsl:choose>
         </div>
     </xsl:template>
 </xsl:stylesheet>

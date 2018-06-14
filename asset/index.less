@@ -1,3 +1,75 @@
 .oxmod-act-product-list{
 /* CSS */
+	ul{
+		display: flex;
+		flex-wrap:wrap;
+		justify-content: space-between;
+		padding: 5px;
+		background-color: #f06;
+	}
+	li{
+		width: 33%;
+		background-color: #fff;
+		margin-bottom: 0.6666666%;
+		font-size: 12px;
+		color:#333;
+		//border:solid 1px #f10;
+		box-sizing: border-box;
+		>*{
+			width:100%;
+			display: inline-block;
+		}
+		.img-box{
+			height: 0;
+			padding-bottom: 100%;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: contain;
+			border-bottom: solid #f8f8f8 1px;
+		}
+		em{
+			font-style: normal;
+		}
+	}
+	.brief,
+	.title{
+		//color:
+		
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		text-indent: .3em;
+
+	}
+
+	.brief{
+		color:#f06;
+	}
+	.price{
+
+		em{
+			font-size: 1.2em;
+			color:#f06;
+			font-weight: 700;
+			&:before{
+				content: '\a5';
+				font-size: .9em;
+				vertical-align: text-top;
+				font-weight: 400;
+			}
+		}
+		del{
+			color:#999;
+			&:before{
+				content: '\a5';
+				font-weight: 400;
+			}
+		}
+	}
+
+	.nodata{
+		background-color: #f9f9f9;
+		color:#666;
+		line-height: 60px;
+	}
  }
