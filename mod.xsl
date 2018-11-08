@@ -3,18 +3,18 @@
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-act-product-list" ox-mod="act-product-list">
 	          <xsl:choose>
-	          	<xsl:when test="count(data/promotion-products/i) &gt; 0">
+	          	<xsl:when test="count(data/ui-sale/i) &gt; 0">
 	          		<ul>
-	          			<xsl:for-each select="data/promotion-products/i">
+	          			<xsl:for-each select="data/ui-sale/i">
 	          			<li>
 	          				<span class="img-box" style="background-image:url({img})"></span>
 	          				<nobr class="title">
 	          					<xsl:value-of select="title"/>
 	          				</nobr>
-	          				<nobr class="brief"><xsl:value-of select="promotion/name"/></nobr>
+	          				<nobr class="brief"><xsl:value-of select="slogan"/></nobr>
 	          				<span class="price">
 	          					&#160;
-	          					<em><xsl:value-of select="promotion/price"/></em>
+	          					<em><xsl:value-of select="price"/></em>
 	          					&#160;
 	          					<del><xsl:value-of select="orig_price"/></del>
 	          				</span>

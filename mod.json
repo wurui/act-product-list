@@ -1,9 +1,9 @@
 {
   "name": "act-product-list",
   "apiDependencies": [
-  {
-    "name": "promotion-products"
-  }
-]
+	  {
+	    "name": "ui-sale"
+	  }
+	]
 }
 

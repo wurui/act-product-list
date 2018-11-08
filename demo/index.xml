@@ -14,76 +14,66 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-    <promotion-products ADAPTERID="258d7307d9cbc01871e52052c">
-        <i>
-            <title>洗衣机槽清洗剂</title>
-            <promotion>
-                <name>满300减30</name>
+        <ui-sale><!--
+            <i>
+                <img>http://openxsl4dev.oss-cn-shanghai.aliyuncs.com/uploads/git/wurui/img/29zk7keqbTjjs5h6zhRl9a7Aw1f-916.jpg</img>
+                <orig_price>129</orig_price>
+                <price>84</price>
+                <tags>
+                    <i>特价</i>
+                    <i>包邮</i>
+                </tags>
+                <title>三文鱼刺身300g</title>
+                <href></href>
+                <slogan>满100返45</slogan>
+            </i>-->
+            <i>
+                <title>洗衣机槽清洗剂</title>
+                <slogan>满300减30</slogan>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygnb6tTjidweaizRfr95A1jea-1000.png</img>
                 <price>45.9</price>
-            </promotion>
-            <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygnb6tTjidweaizRfr95A1jea-1000.png</img>
-            <id>test01</id>
-            <orig_price>116</orig_price>
-            <_id>58d7307d9cbc01871e52052d</_id>
-        </i>
-        <i>
-            <title>生物酶疏通剂</title>
-            <promotion>
-                <name>买就送手套口罩</name>
+                <orig_price>116</orig_price>
+                <href></href>
+                
+            </i>
+            <i>
+                <title>生物酶疏通剂</title>
+                <slogan>买就送手套口罩</slogan>
                 <price>29.8</price>
-            </promotion>
-            <id>test01</id>
-            <orig_price>99.8</orig_price>
-            <_id>58d7307d9cbc01871e52052d</_id>
-            <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygnbs1Tjidwe9xrRrnjxA1ose-1000.png</img>
-        </i>
-        <i>
-            
-            <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygncd2Tjidwe9cqR2qdlA1vnf-1000.png</img>
-           
-            <title>威猛先生洁厕液</title>
-            <promotion>
-                <name>挂壁持久深层清洁</name>
+                <orig_price>99.8</orig_price>
+                <href></href>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygnbs1Tjidwe9xrRrnjxA1ose-1000.png</img>
+            </i>
+            <i>
+                
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygncd2Tjidwe9cqR2qdlA1vnf-1000.png</img>
+                <title>威猛先生洁厕液</title>
+                <slogan>挂壁持久深层清洁</slogan>
                 <price>29.8</price>
-            </promotion>
-            <id>test01</id>
-            <orig_price>99.8</orig_price>
-            <_id>58d7307d9cbc01871e52052d</_id>
-        </i>
-        <i>
-            <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygncz0Tjidwe8qsR37xkA1f48-1000.png</img>
-            <title>洗衣机槽清洗剂</title>
-            <promotion>
-                <name>买二送一加送小网兜</name>
+                <orig_price>99.8</orig_price>
+                
+            </i>
+            <i>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygncz0Tjidwe8qsR37xkA1f48-1000.png</img>
+                <title>洗衣机槽清洗剂</title>
+                <slogan>买二送一加送小网兜</slogan>
                 <price>29.8</price>
-            </promotion>
-            <id>test01</id>
-            <orig_price>99.8</orig_price>
-            <_id>58d7307d9cbc01871e52052d</_id>
-        </i>
-        <i>
-            <title>织物去味除菌喷雾</title>
-            <promotion>
-                <name>抢第2套0元</name>
-                <price>99</price>
-            </promotion>
-            <id>test01</id>
-            <orig_price>99.8</orig_price>
-            <_id>58d7307d9cbc01871e52052d</_id>
-            <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygndhaTjidwe88iRtg0qA1gs0-1000.png</img>
-           
-        </i>
-        <i>
-            <title>滴露消毒液</title>
-            <promotion>
-                <name>第三件0元</name>
-                <price>99</price>
-            </promotion>
-            <id>test01</id>
-            <orig_price>152.9</orig_price>
-            <_id>58d7307d9cbc01871e52052d</_id>
-            <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygnfapTjidwe6f3R30nlA18vu-1000.png</img>
-        </i>
-    </promotion-products>
+                <orig_price>99.8</orig_price>
+            </i>
+            <i>
+                <title>织物去味除菌喷雾</title>
+                <slogan>抢第2套0元</slogan>
+                <price>79.8</price>
+                <orig_price>99.8</orig_price>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygndhaTjidwe88iRtg0qA1gs0-1000.png</img>
+            </i>
+            <i>
+                <title>滴露消毒液</title>
+                <slogan>第三件0元</slogan>
+                <price>99.8</price>
+                <orig_price>152.9</orig_price>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a0ygnfapTjidwe6f3R30nlA18vu-1000.png</img>
+            </i>
+        </ui-sale>
     </data>
 </root>
